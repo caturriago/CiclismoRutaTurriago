@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+  <html lang="es">
+<!DOCTYPE html>
+	<html lang="es">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta content="Carlos Turriago" name="author"/>
+		<title>CICLISMO DE RUTA</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	
+	<body>
+	<div id="contenidos">
+	<header>
+	<h1>CICLISMO DE RUTA</h1>
+  <h2>Una  Nueva  Aventura: Nuestros Ciclistas</h2>
+    </header>
+    <nav>
+    <ul>
+       <li><a href="index.html">Inicio</a></li>
+           <li><a href="Historia.html">Historia</a></li>
+           <li><a href="Pruebas.html">Pruebas</a></li>
+           <li><a href="Ciclistas.html">Ciclistas</a></li>
+           <li><a href="Equipos.html">Equipos</a></li>
+           <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+  </nav>
+ <section>
+<div class="main">
+<div class="slides">
+	<img src="img/c1.jpg">
+	<img src="img/c2.jpg">
+	<img src="img/c3.jpg">
+	<img src="img/c4.jpg">
+	<img src="img/c5.jpg">
+	<img src="img/c6.jpg">
+	<img src="img/c7.jpg">
+</div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.slides.js"></script>
+<script>
+    $(function(){
+      $(".slides").slidesjs({
+        play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 1500,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+      });
+    });
+  </script>
+
+ </section>
+    <aside>
+    <article>
+
+       <h>Siguenos en Redes Sociales:</h>
+       <ul>
+           <li><a href="http://www.facebook.com" class="menu">facebook</a></li>
+           <li><a href="http://www.youtube.com" class="menu">youtube</a></li>
+       </ul>
+     </article>
+   </aside>
+
+   <footer><h3>diseñado por CARLOS TURRIAGO© </h3></footer>
+    </div>
+
+  </body>
+  </html> 
